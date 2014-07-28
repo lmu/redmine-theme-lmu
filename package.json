@@ -1,17 +1,17 @@
 {
-  "name": "gitmike",
-  "version": "0.0.0",
-  "description": "Redmine gitmike theme",
+  "name": "lmu-theme",
+  "version": "0.1.0",
+  "description": "Redmine Theme for LMU München",
   "repository": {
     "type": "git",
-    "url": "git://github.com/makotokw/redmine-theme-gitmike.git"
+    "url": "git://github.com/loechel/redmine-theme-lmu.git"
   },
-  "author": "Makoto Kawasaki",
+  "author": "Alexander Loechel, based on Makoto Kawasaki's gitmike",
   "license": "GPLv2",
   "bugs": {
-    "url": "https://github.com/makotokw/redmine-theme-gitmike/issues"
+    "url": "https://github.com/loechel/redmine-theme-lmu/issues"
   },
-  "homepage": "https://github.com/makotokw/redmine-theme-gitmike",
+  "homepage": "https://github.com/loechel/redmine-theme-lmu",
   "devDependencies": {
     "grunt": "~0.4.4",
     "load-grunt-tasks": "~0.4.0",
