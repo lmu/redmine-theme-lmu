@@ -6,24 +6,25 @@
  * @see https://github.com/makotokw/redmine-theme-gitmike
  * @license GPL3 License
  */
-body { color: #333333; background-color: white; }
+body { color: #333333; background-color: white; overflow: hidden; }
 
 body, input, select, textarea, button { font: 12px Helvetica, arial, freesans, clean, sans-serif; line-height: 1.4; }
 
 tt, code, pre { font-family: Consolas, "Liberation Mono", Courier, monospace; font-size: 12px; }
+#wrapper { margin-bottom: 5px; }
 
 #content h1, h2, h3, h4 { color: #333333; }
 
-#header { background: white; padding: 4px 8px 10px 6px; height: auto; }
-#header a { color: #4183c4; }
-#header > h1 { background: url(../images/logo.png) no-repeat 10px 5px; padding: 5px 45px; color: #393939; }
+#header { background: #4fa0c5; padding: 5px 0px 0px 0px!important; margin: 0px!important; height: auto; }
+#header a { color: #fff; }
+#header > h1 { background: url(../images/lmu_wortbild_logo.png) no-repeat 14px 14px; padding: 50px 0px 0px 165px; color: #fff; font-weight: normal; text-transform: uppercase; }
 
 #main { background: transparent; margin: 15px 15px 0px 15px; background-color: white; }
 
-#top-menu { font: 12px Helvetica, arial, freesans, clean, sans-serif; padding: 10px 10px 2px 20px; background-color: #f3f3f3; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #f3f3f3)); background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3); background-image: -moz-linear-gradient(#f9f9f9, #f3f3f3); background-image: -o-linear-gradient(#f9f9f9, #f3f3f3); background-image: linear-gradient(#f9f9f9, #f3f3f3); background-repeat: repeat-x; text-shadow: 0 1px 0 white; border-bottom: 1px solid #e5e5e5; }
-#top-menu #loggedas { color: #222; }
-#top-menu a { color: #333333; font-weight: bold; padding: 5px; margin-right: 0px; -webkit-transition: color 0.15s ease-in 0; -moz-transition: color 0.15s ease-in 0; -o-transition: color 0.15s ease-in 0; transition: color 0.15s ease-in 0; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
-#top-menu a:hover { color: #4183c4; text-decoration: none; }
+#top-menu { font: 12px Helvetica, arial, freesans, clean, sans-serif; padding: 6px 10px 4px 8px; background-color: #2f85ab; text-shadow: none; }
+#top-menu #loggedas { color: #fff; }
+#top-menu a { color: #fff; font-weight: bold; padding: 5px; margin-right: 0px; -webkit-transition: color 0.15s ease-in 0; -moz-transition: color 0.15s ease-in 0; -o-transition: color 0.15s ease-in 0; transition: color 0.15s ease-in 0; }
+#top-menu a:hover { color: #444; text-decoration: none; }
 
 div.flash { border: 1px solid; text-shadow: 0 1px white; }
 div#content > div.flash { border: 0px solid; padding: 10px 35px 10px; margin: -6px -10px 6px -10px; background-position-x: 12px !important; background-position-y: 9px !important; position: relative; border-bottom: 1px solid #AECCD7; }
@@ -82,8 +83,7 @@ div.contact.details, div.deal.details { padding: 15px !important; margin: -11px 
 
 #sidebar h3 { color: #222; }
 
-#footer { background-color: #F8F8F8; border: 0px; border-top: 1px solid #E0E0E0; color: #636363; margin-top: 45px; padding: 15px; }
-#footer .bgl .bgr:after { content: " and gitmike theme"; }
+#footer { background-color: #fff; border: 0px; border-top: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0; color: #636363; margin-top: 45px; padding: 15px; }
 
 h2, h3, h4 { border-bottom: 0px; }
 
@@ -91,7 +91,7 @@ h2, h3, h4 { border-bottom: 0px; }
 .wiki.wiki-page h1 { border-bottom: 1px solid #ccc; }
 .wiki.wiki-page > h2 { border-bottom: 1px solid #ccc; padding-bottom: 6px; }
 
-#main-menu { left: 0px; width: 100%; background: #FAFAFA; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #eaeaea)); background: -webkit-linear-gradient(top, #fafafa, #eaeaea); background: -moz-linear-gradient(top, #fafafa, #eaeaea); background: -o-linear-gradient(top, #fafafa, #eaeaea); background: linear-gradient(top, #fafafa, #eaeaea); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')"; border: 1px solid #EAEAEA; border-bottom-color: #CACACA; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; margin-right: 0; position: relative; }
+#main-menu { left: 0px; width: 100%; background: #FAFAFA; background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #eaeaea)); background: -webkit-linear-gradient(top, #fafafa, #eaeaea); background: -moz-linear-gradient(top, #fafafa, #eaeaea); background: -o-linear-gradient(top, #fafafa, #eaeaea); background: linear-gradient(top, #fafafa, #eaeaea); -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')"; border: 1px solid #EAEAEA; border-bottom-color: #CACACA; margin-right: 0; position: relative; }
 #main-menu ul { *zoom: 1; margin-top: 0; padding-left: 0; background-color: transparent !important; }
 #main-menu ul:before, #main-menu ul:after { display: table; content: ""; line-height: 0; }
 #main-menu ul:after { clear: both; }
@@ -108,7 +108,8 @@ table.list thead th { border-width: 1px; border-style: solid; border-top-color: 
 
 tr.assigned-to-me td.assigned_to, tr.created-by-me td.author { font-weight: bold; }
 
-#quick-search { margin-top: 8px; }
+#quick-search { width: 330px; margin-top: 8px; }
+#quick-search select { position: relative; left: 41px; top: 12px; width: 276px; }
 
 table.list td { padding: 4px; }
 table.list input[type="checkbox"] { margin-top: 6px; }
@@ -202,7 +203,7 @@ option { border-bottom: 1px dotted #ddd; }
 
 #add-news, #add-message, #add-document { background-color: white; position: relative; border-bottom: 1px solid #AECCD7; margin: -5px -10px 1px -10px; padding: 5px 10px 10px; -webkit-border-top-left-radius: 8px; -moz-border-radius-topleft: 8px; border-top-left-radius: 8px; -webkit-border-top-right-radius: 8px; -moz-border-radius-topright: 8px; border-top-right-radius: 8px; }
 
-#quick-search #q { outline: none; padding: 3px 5px !important; background-color: #fff; border: 1px solid #ddd; border-top: 1px solid #CDCDCD; -webkit-box-shadow: 0 1px 0 #f1f1f1, inset 0 1px 1px #e0e0e0; -moz-box-shadow: 0 1px 0 #f1f1f1, inset 0 1px 1px #e0e0e0; box-shadow: 0 1px 0 #f1f1f1, inset 0 1px 1px #e0e0e0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; color: #333; font-size: 12px; }
+#quick-search #q { width: 265px; outline: none; padding: 3px 5px !important; background-color: #fff; border: 1px solid #ddd; border-top: 1px solid #CDCDCD; -webkit-box-shadow: 0 1px 0 #f1f1f1, inset 0 1px 1px #e0e0e0; -moz-box-shadow: 0 1px 0 #f1f1f1, inset 0 1px 1px #e0e0e0; box-shadow: 0 1px 0 #f1f1f1, inset 0 1px 1px #e0e0e0; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; color: #333; font-size: 12px; }
 
 .box { background-color: #fcfcfc; -webkit-border-radius: 8px; -moz-border-radius: 8px; border-radius: 8px; padding: 16px; }
 
@@ -263,7 +264,7 @@ body.action-login #login-form table { padding: 3em; background: white; -webkit-b
 
 div.filters .live_search { margin-left: 11px !important; }
 
-input.live_search_field { -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; -webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.15); -moz-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.15); box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.15); outline: none; padding: 3px 10px !important; border: 1px solid #C3C3C3; }
+input.live_search_field { -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px; -webkit-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.15); -moz-box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.15); box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.15); outline: none; padding: 3px 19px !important; border: 1px solid #C3C3C3; }
 
 .live_search input.live_search_field { font-size: 12px !important; }
 
@@ -307,3 +308,28 @@ a.buy-button.blue { background: #4C728A !important; background-image: -webkit-gr
 #picture { width: 446px !important; top: 7px; }
 
 #title h2, #buttons, #title h1 { min-width: 550px !important; }
+
+/* Breadcrumbanpassung */
+
+div#lmu-breadcrumb {
+  margin: 15px;
+  margin-left: 15px;
+  font-size: 0.9em;
+}
+
+/* Login Tweaks */
+
+.login-tweaks {
+  width: 520px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fcf8e3;
+  border: 1px solid #ddd;
+  color: #c09853;
+  border-radius: 8px;
+  box-shadow: 0 0 3px #cccccc;
+}
+
+#login-form table {
+  width: 560px!important;
+}
