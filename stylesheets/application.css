@@ -83,7 +83,7 @@ div.contact.details, div.deal.details { padding: 15px !important; margin: -11px 
 
 #sidebar h3 { color: #222; }
 
-#footer { background-color: #fff; border: 0px; border-top: 1px solid #E0E0E0; border-bottom: 1px solid #E0E0E0; color: #636363; margin-top: 45px; padding: 15px; }
+#footer { background-color: #fff; border: 0px; border-top: 1px solid #E0E0E0; color: #636363; margin-top: 45px; padding: 15px; }
 
 h2, h3, h4 { border-bottom: 0px; }
 
@@ -332,4 +332,13 @@ div#lmu-breadcrumb {
 
 #login-form table {
   width: 560px!important;
+}
+
+/* No live search image */
+
+input#project_search {
+  background-image: none!important;
+}
+.live_search input.live_search_field {
+  padding-left: 10px!important;
 }
