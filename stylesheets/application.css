@@ -6,7 +6,7 @@
  * @see https://github.com/makotokw/redmine-theme-gitmike
  * @license GPL3 License
  */
-body { color: #333333; background-color: white; overflow: hidden; }
+body { color: #333333; background-color: white; }
 
 body, input, select, textarea, button { font: 12px Helvetica, arial, freesans, clean, sans-serif; line-height: 1.4; }
 
